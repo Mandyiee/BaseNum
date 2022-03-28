@@ -1,2 +1,2 @@
 # BaseNum
-A website that links the major different number bars
+A website that links the major different number base
