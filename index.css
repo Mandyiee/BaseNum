@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+p {
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: black;
+}
+.green, .blue , .red {
+  width: 85%;
+  height: 120px;
+  background-color: transparent;
+  margin: 30px auto;
+  padding: 10px 10px;
+  box-shadow: 7px 7px 17px rgba(0, 0, 0,0.3);
+    border-radius: 5px;
+position: relative;
+color: black;
+border: 2px solid #307901;
+}
+.blue {
+  border: 2px solid #0055D6;
+}
+.red{
+  border: 2px solid #941616;
+}
+body {
+  background-color: #fff;
+  max-height: 100vh;
+ 
+}
+#input {
+  width: 80%;
+  margin: 30px auto;
+  display: block;
+  height: 60px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 7px 7px 17px rgba(0, 0, 0,0.3);
+  color: black;
+  padding: 2px 10px;
+}
+h4 {
+  margin-bottom: 30px;
+}
+
+.result {
+  width: 90%;
+  height: fit-content;
+  overflow-x: scroll;
+}
+
+.copy {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  padding: 3px 5px;
+  outline: none;
+  background-color:transparent;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  transition: .5s ease-in-out;
+}
+ .optionForm {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.copy:hover {
+  background-color:black;
+  color: white;
+}
+
+.main-container {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 800px) {
+ * {
+   font-size: 23px;
+ }
+  .main-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+.green, .blue , .red {
+  height: 160px;
+}
+#input {
+  padding: 3px 15px;
+}
+}
